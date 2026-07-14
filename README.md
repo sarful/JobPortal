@@ -48,7 +48,6 @@ Live URL:
 The backend can be deployed using:
 
 - Render
-- Railway
 
 The frontend communicates with the backend using the following Vite environment variable:
 
