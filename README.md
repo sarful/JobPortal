@@ -1,5 +1,11 @@
 # JobPortal
 
+## Live Website
+
+Frontend deployed on Vercel:
+
+[https://job-portal-ten-lyart.vercel.app](https://job-portal-ten-lyart.vercel.app)
+
 ## Project Overview
 
 JobPortal is a full-stack job portal web application where candidates can search and apply for jobs, employers can create and manage job posts, and administrators can manage users, jobs, applications, categories, and contact messages.
@@ -27,20 +33,24 @@ The platform provides separate role-based dashboards for:
 - Contact form
 - Responsive user interface
 
-## Installation Guide
+## Deployment
 
-### Prerequisites
+### Frontend
 
-Install the following software before running the project:
+The frontend is deployed on Vercel.
 
-- Node.js
-- npm
-- Git
-- MongoDB or MongoDB Atlas
+Live URL:
 
-Check the installed versions:
+[https://job-portal-ten-lyart.vercel.app](https://job-portal-ten-lyart.vercel.app)
 
-```powershell
-node --version
-npm --version
-git --version
+### Backend
+
+The backend can be deployed using:
+
+- Render
+- Railway
+
+The frontend communicates with the backend using the following Vite environment variable:
+
+```env
+VITE_API_BASE_URL=https://your-backend-url.com/api
